@@ -1,0 +1,15 @@
+times = ('Atlético-MG', 'Palmeiras', 'Flamengo', 'Bragantino', 'Fortaleza', 'Corinthians', 'Internacional',
+         'Fluminense', 'América-MG', 'Cuiabá', 'Atlético-GO', 'São Paulo', 'Ceará SC', 'Santos',
+         'Athlético-PR', 'Bahia', 'Sport Recife', 'Juventude', 'Grêmio', 'Chapecoense')
+print(f'São {len(times)} times no total')
+print('_._' * 40)
+print(f'Os times do Brasileirão de 2021 são: {times}')
+print('_._' * 40)
+print(f'Os 5 primeiros colocados são: {times[:5]}')
+print('_._' * 40)
+print(f'Os 4 últimos colocados são: {times[16:20]}')
+print('_._' * 40)
+print(f'Classificação em ordem alfabética: {sorted(times)}')
+print('_._' * 40)
+ultimo = times.index('Chapecoense')
+print(f' O time Chapecoense está em {ultimo +1}º lugar')
