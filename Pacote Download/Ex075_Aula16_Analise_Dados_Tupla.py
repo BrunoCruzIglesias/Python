@@ -18,4 +18,6 @@ while True:
 print(tup)
 print(type(tup))
 
+#ainda está incompleto o exercicio.. em breve terminando. Obrigado
+
 
